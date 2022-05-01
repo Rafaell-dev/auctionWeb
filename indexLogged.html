@@ -40,7 +40,7 @@
           <div class="collapse navbar-collapse" id="navbarExample01">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">Leiloar</a>
+                <a class="nav-link" href="newAuction.html">Leiloar</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Doar Direto</a>
@@ -93,29 +93,39 @@
         </ul>
       </li>
       <!-- Notification dropdown -->
-      <!-- Icon user dropdown -->
-      <li class="nav-item me-3 me-lg-0 dropdown" style="list-style: none;">
+      <!-- Avatar -->
+      <div class="dropdown">
         <a
-          class="nav-link dropdown-toggle"
+          class="dropdown-toggle d-flex align-items-center hidden-arrow"
           href="#"
-          id="navbarDropdown"
+          id="navbarDropdownMenuAvatar"
           role="button"
           data-mdb-toggle="dropdown"
           aria-expanded="false"
         >
-          <i class="fas fa-user"></i>
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+            class="rounded-circle"
+            height="25"
+            alt="Black and White Portrait of a Man"
+            loading="lazy"
+          />
         </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuAvatar"
+        >
           <li>
-            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Meu perfil</a>
           </li>
           <li>
-            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="/MyAuctions.html">Meus leilões</a>
           </li>
-          <li><hr class="dropdown-divider" /></li>
           <li>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <!-- Icon user dropdown -->
+            <a class="dropdown-item" href="#">Sair</a>
+          </li>
+        </ul>
+      </div>
           </div>
         </div>
       </nav>
@@ -133,7 +143,7 @@
           <div class="d-flex justify-content-center align-items-center h-100">
             <div class="text-white">
               <h1 class="mb-3">Leilão solidário</h1>
-              <a class="btn btn-outline-light btn-lg" href="#!" role="button"
+              <a class="btn btn-outline-light btn-lg" href="newAuction.html" role="button"
               >Abra um leilão</a
               >
             </div>

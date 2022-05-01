@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Novo Leilão</title>
+    <title>Meus leilões</title>
     <!-- MDB icon -->
     <link rel="icon" href="" type="image/x-icon" />
     <!-- Font Awesome -->
@@ -42,6 +42,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarExample01">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="newAuction.html">Leiloar</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Doar Direto</a>
               </li>
@@ -136,99 +139,29 @@
 
     <!-- Main page -->
     <main>
-      <div class="">
-        <form
-          class="form-group d-flex justify-content-center align-items-center"
-          style="height: 800px"
-          action="/MyAuctions.html"
-        >
-          <div class="">
-            <h2 class="mt-4 mb-4">O que deseja leiloar?</h2>
-            <!-- Image Upload -->
-            <div class="mb-4">
-              <label class="form-label" for="customFile"
-                >Envie uma imagem do produto</label
-              >
-              <input type="file" class="form-control" id="customFile" />
-            </div>
-            <!-- Image Upload -->
-            <!-- Text input -->
-            <div class="form-outline mt-6 mb-4">
-              <input type="text" id="form6Example3" class="form-control" />
-              <label class="form-label" for="form6Example3"
-                >Título do leilão</label
-              >
-            </div>
-            <!-- Text input -->
-            <div class="form-outline mb-4">
-              <input type="text" id="form6Example4" class="form-control" />
-              <label class="form-label" for="form6Example4">Nome do item</label>
-            </div>
-            <!-- Number input -->
-            <div class="form-outline mb-4">
-              <input type="number" id="quatItems" class="form-control" />
-              <label class="form-label" for="quatItems"
-                >Quantidade de items</label
-              >
-            </div>
-            <!-- Categories option -->
-            <div class="mb-4 form-control">
-              <label class="" for="inlineFormSelectPref">Categorias</label>
-              <select class="select">
-                <option value="1">Eletrônicos e celulares</option>
-                <option value="2">Artigos infatins</option>
-                <option value="3">Esporte e lazer</option>
-                <option value="4">Para casa</option>
-              </select>
-            </div>
-            <!-- Number input -->
-            <div class="input-group mb-3">
-              <span class="input-group-text">R$</span>
-              <input
-                type="number"
-                class="form-control"
-                aria-label="Amount ()"
-              />
-              <span class="input-group-text">,00</span>
-            </div>
-            <!-- Description input -->
-            <div class="form-outline mb-4">
-              <textarea
-                class="form-control"
-                id="form6Example7"
-                rows="4"
-              ></textarea>
-              <label class="form-label" for="form6Example7">Descrição</label>
-            </div>
-
-            <!-- New or used -->
-            <div class="form-check form-check-inline mb-4">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="inlineRadioOptions"
-                id="inlineRadio1"
-                value="option1"
-              />
-              <label class="form-check-label" for="inlineRadio1">Usado</label>
-            </div>
-
-            <div class="form-check form-check-inline">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="inlineRadioOptions"
-                id="inlineRadio2"
-                value="option2"
-              />
-              <label class="form-check-label" for="inlineRadio2">Novo</label>
-            </div>
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-primary btn-block mb-4">
-              Criar novo leilão
-            </button>
+      <div class="d-flex align-items-center justify-content-center" style="height: 800px;">
+        <div class="card text-center">
+          <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs ">
+              <li class="nav-item ">
+                <a class="nav-link active" aria-current="true" href="#!">Leilões ativos</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#!">Leilões encerrados</a>
+              </li>
+            </ul>
           </div>
-        </form>
+          <div class="card-body">
+            <h5 class="card-title">Leilão 1</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+            <a href="#" class="btn btn-primary">Detalhes</a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Leilão 2</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+            <a href="#" class="btn btn-primary">Detalhes</a>
+          </div>
+        </div>
       </div>
     </main>
     <!-- Main page -->
@@ -344,8 +277,8 @@
         class="text-center text-dark p-3"
         style="background-color: rgba(0, 0, 0, 0.2)"
       >
-        © 2020 Copyright:
-        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        © 2022 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/"></a>
       </div>
       <!-- Copyright -->
     </footer>
